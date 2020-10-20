@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day2-Timer</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-nav navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Timer</a>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="mt-5 pt-5">
+			<div class="row">
+				<div class="col-md-4" style="text-align: center; font-size: 60px;">
+					<div class="card card-body">
+						<div id="hours">00</div>
+					</div>
+				</div>
+				<div class="col-md-4" style="text-align: center; font-size: 60px;">
+					<div class="card card-body">
+						<div id="mins">00</div>
+					</div>
+				</div>
+				<div class="col-md-4" style="text-align: center; font-size: 60px;">
+					<div class="card card-body">
+						<div id="secs">00</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="card-body">
+				<div style="text-align: center;">
+					<button style="width: 17%; font-size:28px;" class="btn btn-primary" id="start">Start</button>
+					<button style="width: 17%; font-size:28px;" class="btn btn-primary" id="stop">Stop</button>
+					<button style="width: 17%; font-size:28px;" class="btn btn-primary" id="reset">Reset</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="timer.js"></script>
+</body>

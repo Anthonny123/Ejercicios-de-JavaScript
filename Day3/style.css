@@ -1,0 +1,35 @@
+.app{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calc{
+	display: grid;
+	background-color: #4aa798c2;
+	padding: 30px;
+	border-radius: 5px 5px 5px 5px;
+	border-color: #dcdcdc;
+
+}
+
+.display{
+	display: flex;
+	background-color: #dcdcdc;
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 5px;
+	border-radius: 4px;
+
+
+}
+
+.buttons{
+	width: 5vw;
+	height: 5vh;
+	margin: 3px;
+	border-radius: 5px 5px 5px 5px;
+	border-color: #042a5057;
+}

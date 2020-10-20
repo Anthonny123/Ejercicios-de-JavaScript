@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	background-color: #F3F3F3;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+}
+
+#transcript{
+	margin-top: 45px;
+	background-color: #161616;
+	height: 60vh;
+	width: 80vw;
+	margin: auto;
+}
+
+p{
+	font-family: sans-serif;
+	color: #F3F3F3;
+	font-size: 16px;
+}
+
+

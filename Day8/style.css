@@ -1,0 +1,63 @@
+body{
+	background-color: #666547;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.game{
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+
+}
+.buttons{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.actualNumber{
+	display: flex;
+	background-color: #ffe28a;
+	height: 120px;
+	width: 120px;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-right: 35px;
+
+}
+
+.btn{
+	height: 45px;
+	width: 45px;
+	box-shadow:3px 3px 3px 3px rgba(75,75,75,0.50);
+}
+
+#high{
+	background-color: #6fcb9f;
+	border-style: none;
+	border-radius: 2px 2px 2px 2px;
+}
+#low{
+	background-color: #fb2e01;
+	border-style: none;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.score{
+	display: flex;
+	margin: auto;
+	margin-top:40px;
+	background-color: #fffeb3;
+	height: 60px;
+	width: 60px;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
